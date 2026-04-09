@@ -11,10 +11,14 @@
             "id": "66c6933e2837a2cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "GS/SIHT/modulos/Hola.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Hola"
             }
           }
         ]
@@ -191,8 +195,12 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3a52cc4d40d08932",
+  "active": "17dd306c299f69e1",
   "lastOpenFiles": [
+    "GS/SIHT/modulos",
+    "GS/SIHT",
+    "GS",
+    "GS/SIHT/modulos/Hola.md",
     "Bienvenido.md",
     "hola.md"
   ]
