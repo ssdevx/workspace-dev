@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 257.5
   },
   "right": {
     "id": "5ab84df251c034ce",
@@ -200,6 +200,7 @@
   "lastOpenFiles": [
     "GS/SIHT/modulos/Modulos.base",
     "GS/SIHT/modulos/Guias.md",
+    "GS/SIHT/mejoras",
     "Sin título.md",
     "GS/SIHT/modulos/Hola.md",
     "GS/SIHT/modulos",
