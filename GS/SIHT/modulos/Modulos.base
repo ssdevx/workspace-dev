@@ -1,0 +1,12 @@
+formulas:
+  Sin título: ""
+views:
+  - type: table
+    name: Tabla
+    order:
+      - file.name
+      - file.basename
+      - file.ext
+      - file.folder
+      - file.fullname
+      - file.mtime
