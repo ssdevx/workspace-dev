@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GS/SIHT/catalogos/Rol Usuarios.md",
+                "file": "GS/SIHT/modulos/Guias.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rol Usuarios"
+              "title": "Guias"
             }
           }
         ],
@@ -227,8 +227,8 @@
   },
   "active": "46626b8efad0970a",
   "lastOpenFiles": [
-    "GS/SIHT/catalogos/Módulos.md",
     "GS/SIHT/catalogos/Rol Usuarios.md",
+    "GS/SIHT/catalogos/Módulos.md",
     "GS/SIHT/modulos/Guias.md",
     "GS/SIHT/catalogos",
     "GS/SIHT/modulos/Modulos.base",
