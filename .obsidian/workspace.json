@@ -11,14 +11,13 @@
             "id": "4d8fedf399c7832a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "GS/SIHT/modulos/Guias.md",
-                "mode": "source",
-                "source": false
+                "file": "Sin título.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "Guias"
+              "icon": "lucide-table",
+              "title": "Sin título"
             }
           }
         ]
@@ -198,8 +197,11 @@
   },
   "active": "4d8fedf399c7832a",
   "lastOpenFiles": [
-    "GS/SIHT/modulos/Modulos.base",
+    "Excalidraw/Drawing 2026-04-09 18.17.56.excalidraw.md",
+    "Sin título.base",
+    "Excalidraw",
     "GS/SIHT/modulos/Guias.md",
+    "GS/SIHT/modulos/Modulos.base",
     "GS/SIHT/mejoras",
     "Sin título.md",
     "GS/SIHT/modulos/Hola.md",
