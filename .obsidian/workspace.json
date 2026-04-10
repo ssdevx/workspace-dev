@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Módulos"
             }
+          },
+          {
+            "id": "46626b8efad0970a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GS/SIHT/catalogos/Roles Usuarios.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Roles Usuarios"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,10 +225,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b33d9e7de4470afc",
+  "active": "46626b8efad0970a",
   "lastOpenFiles": [
-    "GS/SIHT/modulos/Guias.md",
     "GS/SIHT/catalogos/Módulos.md",
+    "GS/SIHT/catalogos/Roles Usuarios.md",
+    "GS/SIHT/modulos/Guias.md",
     "GS/SIHT/catalogos",
     "GS/SIHT/modulos/Modulos.base",
     "Sin título.base",
