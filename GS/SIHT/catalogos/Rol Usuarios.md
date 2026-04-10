@@ -39,4 +39,5 @@
 | 41  | Administrador               | Administrador Control Interno Loteros       |
 | 42  | Autorizador                 | Autorizador CD Loteros                      |
 | 43  | Autorizador                 | Autorizador DS/Mayorista Loteros            |
-|     |                             |                                             |
+| 46  | Administrador               | Administrador Tarjetas Sachet               |
+| 47  | Administrador               | Administrador Tarjetas                      |
