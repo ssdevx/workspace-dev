@@ -43,4 +43,3 @@
 | 47  | Administrador               | Administrador Tarjetas                      |
 
 
-Por ejemplo: el rol 46 es un administrador de negocio en especifico, el negocio 21 , el rol 47, es un administrador de negocio 20 y existe otro rol 33 que el puede ver todos los negocios y seleccionar que negocio atender, me gustaria que me des una idea de una configuracion global para poder administrar esta parte con miras a 
