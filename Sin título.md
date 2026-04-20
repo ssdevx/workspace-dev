@@ -2,7 +2,7 @@ Actualmente utilizo una aplicación llamada **Money Flow** dentro del ecosistema
 
 La aplicación cumple bien su función, pero el principal problema es que el registro de gastos no está automatizado.
 
-En el caso del efectivo, que uso con menor frecuencia, realizo el registro manual de forma diaria. Sin embargo, con las tarjetas de crédito el comportamiento es distinto: no siempre registro los gastos en el momento y, además, no todos los movimientos deben considerarse como gastos reales. Por ejemplo, ya tengo definido un presupuesto personal semanal (1000 pesos), y algunos pagos con tarjeta se liquidan con ese monto, o alguna compra con las tarjetas com por lo que no todos deben duplicarse como gasto en la aplicación.
+En el caso del efectivo, que uso con menor frecuencia, realizo el registro manual de forma diaria. Sin embargo, con las tarjetas de crédito el comportamiento es distinto: no siempre registro los gastos en el momento y, además, no todos los movimientos deben considerarse como gastos reales. Por ejemplo, ya tengo definido un presupuesto personal semanal (1000 pesos), y algunos pagos con tarjeta se liquidan con ese monto, o algunas compras que se hacen para otras personas, por lo que no todos deben duplicarse como gasto en la aplicación.
 
 Para compensar esto, cuando se genera el corte de mis tarjetas, realizo un proceso manual que consiste en:
 
@@ -32,4 +32,15 @@ El archivo de Excel debe contener, como mínimo, las siguientes columnas:
 
 Adicionalmente, manejo una estructura complementaria para control interno con los siguientes campos:
 
+| **Tarjeta** | **Fecha Operación** | **Cashback** | **Total** | **Pagado** | **Pendiente** | **Categoría** | **Estatus** | **Origen Pago** | **Observaciones** |
+| ----------- | ------------------- | ------------ | --------- | ---------- | ------------- | ------------- | ----------- | --------------- | ----------------- |
 
+Donde:
+
+- **Tarjeta**: Banco o medio de pago.
+- **Cashback**: Porcentaje de reembolso aplicado (cuando corresponda).
+- **Total**: Importe total de la transacción.
+- **Pagado**: Monto ya cubierto dentro del presupuesto.
+- **Pendiente**: Diferencia entre Total y Pagado.
+- **Estatus**: Puede ser _Pago Completo_, _Pago Parcial_ o _Sin Pago_.
+La idea es hacer un solo archivo excel. me puedes ayudar primero a generar las mejores ideas para automatizar este flujo, considerar conocimientos de programación por si se requiere implementarlas.
