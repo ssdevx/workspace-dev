@@ -1,31 +1,35 @@
-Tengo una aplicación con el nombre de Money Flow para el ecosistema de Apple, donde registro mis gastos y asi poder tener un poco de claridad en donde estoy gastando mi dinero, 
-Esta funcionando bien pero lo que quiero es automatizar mis registros.
-Cuando uso efectivo que es el menor de los casos, los voy registrando en la aplicacion al dia, pero cuando uso mis tarjetas de credito luego no los registro en el momento, adicional de que no precisamente todo lo registro como gasto, por poner un ejemplo ya registre mi gasto personal (1000 mil pesos a la semana), en las tarjetas de credito a veces hago gastos y al final los pago con esos 1000 pesos, por lo cual hay gastos que no registro.
-Para los gastos que registro cuando hay corte de mis tarjetas lo que hago es registrarlos en un excel para:
-Cuadrar que todo este correcto, a la vez un check de que no tenga cargos no reconocidos.
-Definir cuales gastos registrar en la app y cuales no
-Registrar uno por uno en la aplicación, respetando fecha de gasto, categoria para mantener funcional el reporte de la aplicación.
+Actualmente utilizo una aplicación llamada **Money Flow** dentro del ecosistema de Apple para registrar mis gastos y tener visibilidad sobre el uso de mi dinero.
 
-Todo esto lo hago para 4 tarjetas lo cual ya se vuelve una tarea que se tarda unas horas en realizarla
-Cabe destacar que los estados de cuenta se exportan en pdf desde las aplicaciones de los bancos lo cual para cada uno tiene una estructura diferente.
-LO que quiiero es automatizar ese llenado de excel mediante la extraccion de PDFs. y preparar para que ese mismo excel lo pueda usar para cargar la informacion en la aplicacion
+La aplicación cumple bien su función, pero el principal problema es que el registro de gastos no está automatizado.
 
-Dicha estructura de excel debe tener las siguientes columnas, lo cual lo mas importante sera la Fecha, Cuenta, Suma, Moneda Que siempre sera MXN, Categoria, Nota
+En el caso del efectivo, que uso con menor frecuencia, realizo el registro manual de forma diaria. Sin embargo, con las tarjetas de crédito el comportamiento es distinto: no siempre registro los gastos en el momento y, además, no todos los movimientos deben considerarse como gastos reales. Por ejemplo, ya tengo definido un presupuesto personal semanal (1000 pesos), y algunos pagos con tarjeta se liquidan con ese monto, o alguna compra con las tarjetas com por lo que no todos deben duplicarse como gasto en la aplicación.
 
-|       |        |      |        |           |             |                       |                     |                       |           |       |      |
-| ----- | ------ | ---- | ------ | --------- | ----------- | --------------------- | ------------------- | --------------------- | --------- | ----- | ---- |
-| Fecha | Cuenta | Suma | Moneda | Categoría | Contraparte | Transferencia: Cuenta | Transferencia: Suma | Transferencia: Moneda | Etiquetas | Lugar | Nota |
+Para compensar esto, cuando se genera el corte de mis tarjetas, realizo un proceso manual que consiste en:
 
-Tarjeta: se refiere a los diferentes bancos,
-Cashback: Se registra el porcentaje de cashback para algunas compras donde aplique
-Total: total de la compra
-Pagado
+- Exportar los estados de cuenta en PDF desde las aplicaciones bancarias (cada banco con formato distinto).
+- Registrar los movimientos en un archivo de Excel para:
+    - Validar que no existan cargos no reconocidos.
+    - Cuadrar los montos.
+    - Determinar qué movimientos deben registrarse en la aplicación y cuáles no.
+- Registrar manualmente cada gasto en la aplicación, respetando fecha, categoría y demás atributos para mantener consistencia en los reportes.
 
+Este proceso lo repito para 4 tarjetas, lo que lo convierte en una tarea que puede tomar varias horas.
 
-| Tarjeta | Fecha Operación | Cashback | Total | Pagado | Pendiente | Categoria | Estatus | Origen Pago | Observaciones |
-| ------- | --------------- | -------- | ----- | ------ | --------- | --------- | ------- | ----------- | ------------- |
-|         |                 |          |       |        |           |           |         |             |               |
+### **Objetivo**
 
+Automatizar la extracción de información desde los estados de cuenta en PDF para generar un archivo de Excel estructurado, que posteriormente pueda utilizarse como base para cargar la información en la aplicación.
 
+### **Requerimientos del archivo de salida**
+
+El archivo de Excel debe contener, como mínimo, las siguientes columnas:
+
+- Fecha
+- Cuenta
+- Suma
+- Moneda (siempre MXN)
+- Categoría
+- Nota
+
+Adicionalmente, manejo una estructura complementaria para control interno con los siguientes campos:
 
 
