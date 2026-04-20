@@ -44,3 +44,11 @@ Donde:
 - **Pendiente**: Diferencia entre Total y Pagado.
 - **Estatus**: Puede ser _Pago Completo_, _Pago Parcial_ o _Sin Pago_.
 La idea es hacer un solo archivo excel. me puedes ayudar primero a generar las mejores ideas para automatizar este flujo, considerar conocimientos de programación por si se requiere implementarlas.
+
+# Ejecución
+Posicionarse en el directorio
+Abrir terminal
+Ejecutar
+```bash
+python3 extractor_amex.py
+```
