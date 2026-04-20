@@ -4,4 +4,11 @@ Cuando uso efectivo que es el menor de los casos, los voy registrando en la apli
 Para los gastos que registro cuando hay corte de mis tarjetas lo que hago es registrarlos en un excel para:
 Cuadrar que todo este correcto, a la vez un check de que no tenga cargos no reconocidos.
 Definir cuales gastos registrar en la app y cuales no
-Registrar uno por uno en la aplicacion, respet
+Registrar uno por uno en la aplicación, respetando fecha de gasto, categoria para mantener funcional el reporte de la aplicación.
+
+Todo esto lo hago para 4 tarjetas lo cual ya se vuelve una tarea que se tarda unas horas en realizarla
+Cabe destacar que los estados de cuenta se exportan en pdf desde las aplicaciones de los bancos lo cual para cada uno tiene una estructura diferente.
+LO que quiiero es automatizar ese llenado de excel mediante la extraccion de PDFs. y preparar para que ese mismo excel lo pueda 
+
+
+
