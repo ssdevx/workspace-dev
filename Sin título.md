@@ -8,7 +8,24 @@ Registrar uno por uno en la aplicación, respetando fecha de gasto, categoria pa
 
 Todo esto lo hago para 4 tarjetas lo cual ya se vuelve una tarea que se tarda unas horas en realizarla
 Cabe destacar que los estados de cuenta se exportan en pdf desde las aplicaciones de los bancos lo cual para cada uno tiene una estructura diferente.
-LO que quiiero es automatizar ese llenado de excel mediante la extraccion de PDFs. y preparar para que ese mismo excel lo pueda 
+LO que quiiero es automatizar ese llenado de excel mediante la extraccion de PDFs. y preparar para que ese mismo excel lo pueda usar para cargar la informacion en la aplicacion
+
+Dicha estructura de excel debe tener las siguientes columnas, lo cual lo mas importante sera la Fecha, Cuenta, Suma, Moneda Que siempre sera MXN, Categoria, Nota
+
+|       |        |      |        |           |             |                       |                     |                       |           |       |      |
+| ----- | ------ | ---- | ------ | --------- | ----------- | --------------------- | ------------------- | --------------------- | --------- | ----- | ---- |
+| Fecha | Cuenta | Suma | Moneda | Categoría | Contraparte | Transferencia: Cuenta | Transferencia: Suma | Transferencia: Moneda | Etiquetas | Lugar | Nota |
+
+Tarjeta: se refiere a los diferentes bancos,
+Cashback: Se registra el porcentaje de cashback para algunas compras donde aplique
+Total: total de la compra
+Pagado
+
+
+| Tarjeta | Fecha Operación | Cashback | Total | Pagado | Pendiente | Categoria | Estatus | Origen Pago | Observaciones |
+| ------- | --------------- | -------- | ----- | ------ | --------- | --------- | ------- | ----------- | ------------- |
+|         |                 |          |       |        |           |           |         |             |               |
+
 
 
 
